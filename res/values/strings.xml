@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kn Quick Dial</string>
+    <string name="kn_profile_img">Kn Video Studio Logo</string>
+    <string name="main2">profile profile profile </string>
+    <string name="txtCreated">&#169;2012&#8211;2014, Kn Video</string>
+    <string name="txtCopy">&#169;Dec 2012&#8211;2014, Kn Video Studio LLC.\nAll Rights Reserved.</string>
+    <string name="txtCreated2"> Studio LLC. All Rights Reserved.</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="btnPhone1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+    <string name="btn4">4</string>
+    <string name="btn5">5</string>
+    <string name="btn6">6</string>
+    <string name="btn7">7</string>
+    <string name="btn8">8</string>
+    <string name="btn9">9</string>
+    <string name="btn10">10</string>
+    <string name="txtName1">not in use</string>
+    <string name="pmDial">Dial Phone List</string>
+    <string name="menu_settings">App Phone Settings</string>
+    <string name="title_activity_main">Kn Quick Dail</string>
+	<string name="tlVideoPro"><![CDATA[
+      Promote your Business or yourself with implementing a powerful mobile app, no coding required. \n
+      The app is developed for three mobile devices, Android, iPhone, and Windows Phone. \n
+		This video will demonstrate the app developed by Kn Mobile Apps for android. The mobile app contains:
+    ]]></string>  
+    <string name="tlVideoWeb"><![CDATA[
+        This a guide how to implement you own mobile app no codding required.]n
+         The video will show you step by step.
+         ]]>
+    </string>
+</resources>

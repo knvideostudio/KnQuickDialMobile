@@ -1,0 +1,314 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+<TableRow>
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/kn_profile_img"
+            android:paddingLeft="5pt"
+            android:src="@drawable/knvideostudio" />
+<TextView
+            android:id="@+id/txtMain1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5dip"
+            android:text="@string/main2" />
+    
+    </TableRow>
+    <TableRow android:id="@+id/tblRow1" android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+<TextView android:textColor="#FFFFFF" android:textStyle="bold" 
+    android:gravity="center_horizontal" android:background="#1470F8" 
+    android:layout_margin="1dip" android:id="@+id/txtTitle"
+     android:layout_weight="0.3" android:layout_width="wrap_content" 
+     android:layout_height="30dip" 
+     android:textAppearance="?android:attr/textAppearanceMedium" 
+     android:text="@string/pmDial" /> 
+</TableRow>
+<TableRow>
+    <Button android:id="@+id/btnPh1"
+            android:text="@string/btnPhone1" 
+            android:hint="@string/btnPhone1" 
+            android:width="15dp"
+            android:height="12dp"
+            android:paddingLeft="7pt"
+            android:layout_weight="0.3" 
+            android:textColor="#FFFFFF"
+            />
+    <TextView
+            android:id="@+id/txtName1"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5pt"
+            android:text="@string/txtName1" />
+</TableRow>
+<TableRow>
+    <Button android:id="@+id/btnPh2"
+            android:text="@string/btn2" 
+            android:hint="@string/btn2" 
+            android:width="15dp"
+            android:height="12dp"
+            android:paddingLeft="7pt"
+            android:layout_weight="0.3" android:textColor="#FFFFFF"
+            />
+    <TextView
+            android:id="@+id/txtName2"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5pt"
+            android:text="@string/txtName1" />
+</TableRow>
+<TableRow>
+    <Button android:id="@+id/btnPh3"
+            android:text="@string/btn3" 
+            android:hint="@string/btn3" 
+            android:width="15dp"
+            android:height="12dp"
+            android:paddingLeft="7pt"
+            android:layout_weight="0.3" android:textColor="#FFFFFF"
+            />
+    <TextView
+            android:id="@+id/txtName3"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5pt"
+            android:text="@string/txtName1" />
+</TableRow>
+<TableRow>
+    <Button android:id="@+id/btnPh4"
+            android:text="@string/btn4" 
+            android:hint="@string/btn4" 
+            android:width="15dp"
+            android:height="12dp"
+            android:paddingLeft="7pt"
+            android:layout_weight="0.3" android:textColor="#FFFFFF"
+            />
+    <TextView
+            android:id="@+id/txtName4"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5pt"
+            android:text="@string/txtName1" />
+</TableRow>
+<TableRow>
+    <Button android:id="@+id/btnPh5"
+            android:text="@string/btn5" 
+            android:hint="@string/btn5" 
+            android:width="15dp"
+            android:height="12dp"
+            android:paddingLeft="7pt"
+            android:layout_weight="0.3" android:textColor="#FFFFFF"
+            />
+    <TextView
+            android:id="@+id/txtName5"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5pt"
+            android:text="@string/txtName1" />
+</TableRow>
+<TableRow>
+    <Button android:id="@+id/btnPh6"
+            android:text="@string/btn6" 
+            android:hint="@string/btn6" 
+            android:width="15dp"
+            android:height="12dp"
+            android:paddingLeft="7pt"
+            android:layout_weight="0.3" android:textColor="#FFFFFF"
+            />
+    <TextView
+            android:id="@+id/txtName6"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5pt"
+            android:text="@string/txtName1" />
+</TableRow>
+<TableRow>
+    <Button android:id="@+id/btnPh7"
+            android:text="@string/btn7" 
+            android:hint="@string/btn7" 
+            android:width="15dp"
+            android:height="12dp"
+            android:paddingLeft="7pt"
+            android:layout_weight="0.3" android:textColor="#FFFFFF"
+            />
+    <TextView
+            android:id="@+id/txtName7"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5pt"
+            android:text="@string/txtName1" />
+</TableRow>
+<TableRow>
+    <Button android:id="@+id/btnPh8"
+            android:text="@string/btn8" 
+            android:hint="@string/btn8" 
+            android:width="15dp"
+            android:height="12dp"
+            android:paddingLeft="7pt"
+            android:layout_weight="0.3" android:textColor="#FFFFFF"
+            />
+    <TextView
+            android:id="@+id/txtName8"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5pt"
+            android:text="@string/txtName1" />
+</TableRow>
+<TableRow>
+    <Button android:id="@+id/btnPh9"
+            android:text="@string/btn9" 
+            android:hint="@string/btn9" 
+            android:width="15dp"
+            android:height="12dp"
+            android:paddingLeft="7pt"
+            android:layout_weight="0.3" android:textColor="#FFFFFF"
+            />
+    <TextView
+            android:id="@+id/txtName9"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5pt"
+            android:text="@string/txtName1" />
+</TableRow>
+
+<TableRow>
+    <Button android:id="@+id/btnPh10"
+            android:text="@string/btn10" 
+            android:hint="@string/btn10" 
+            android:width="15dp"
+            android:height="12dp"
+            android:paddingLeft="7pt"
+            android:layout_weight="0.3" android:textColor="#FFFFFF"
+            />
+    <TextView
+            android:id="@+id/txtName10"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5pt"
+            android:text="@string/txtName1" />
+</TableRow>
+<TableRow>
+    <WebView  
+    android:id="@+id/myWebTrack"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:layout_span="2"
+     android:scrollbars="none"
+     
+/>
+</TableRow>
+<TableRow>
+    <TextView
+android:id="@+id/txtVideoPro"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:paddingLeft="5dip"
+android:paddingTop="10dip"
+android:text="@string/tlVideoPro" android:textColor="@android:color/background_dark"
+android:layout_span="2" />
+    
+</TableRow>
+
+<TableRow>
+    <ImageButton
+          android:id="@+id/imgWebIntro"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:src="@drawable/knintro"
+          android:contentDescription="@string/kn_profile_img" 
+          android:layout_gravity="center"
+          android:background="@android:color/white"
+          android:layout_marginTop="10dp"
+          android:layout_marginBottom="10dp"
+          android:layout_span="2"
+       />
+    
+</TableRow>
+<TableRow>
+    <TextView
+android:id="@+id/txtVideoWeb"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:paddingLeft="5dip"
+android:paddingTop="10dip"
+android:layout_span="2" 
+android:text="@string/tlVideoWeb" android:textColor="@android:color/background_dark" />
+
+</TableRow>
+<TableRow>
+    <ImageButton
+          android:id="@+id/imgWebAppInt"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:src="@drawable/knwebin"
+          android:contentDescription="@string/kn_profile_img" 
+          android:layout_gravity="center"
+               android:background="@android:color/white"
+  android:layout_span="2" 
+          android:layout_marginTop="10dp"
+          android:layout_marginBottom="10dp"
+       />
+    
+</TableRow>
+<TableRow>
+    <ImageButton
+          android:id="@+id/imgAppBuild"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:src="@drawable/mapp"
+          android:contentDescription="@string/kn_profile_img" 
+          android:layout_gravity="center"
+               android:background="@android:color/white"
+          android:layout_marginTop="10dp"
+          android:layout_marginBottom="10dp"
+           android:layout_span="2" 
+       />
+    
+</TableRow>
+
+<View android:layout_height="3dp" android:background="#1470F8" />
+ <TableRow android:id="@+id/tblRow2" android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+<TextView  
+    android:id="@+id/txtCp"
+      android:layout_width="wrap_content" 
+     android:layout_height="30dip" 
+     android:textAppearance="?android:attr/textAppearanceSmall" 
+     android:text="@string/txtCreated" /> 
+     <TextView  
+    android:id="@+id/txtCp1"
+      android:layout_width="wrap_content" 
+     android:layout_height="30dip" 
+     android:textAppearance="?android:attr/textAppearanceSmall" 
+     android:text="@string/txtCreated2" /> 
+</TableRow>
+</TableLayout>
+</ScrollView>
